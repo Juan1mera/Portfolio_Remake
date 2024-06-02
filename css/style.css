@@ -239,6 +239,14 @@ p{
     grid-column: 1 / 2;
 }
 
+
+.cv{
+    background-color: var(--sombrita);
+    color: var(--claro);
+    margin-top: 2rem ;
+    padding: .5rem 3rem .5rem 3rem;
+    border-radius: 1rem;
+}
 /*----------------------------------------Main-----------------------*/
 .main{
     color: var(--claro);
