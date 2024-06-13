@@ -344,7 +344,7 @@ p{
   
 
 /*----------------------------------------Main-----------------------*/
-.main{
+.main-container{
     margin: 2rem;
     position: absolute;
     top: 62rem;
@@ -353,11 +353,11 @@ p{
 }
 
 @media(min-width: 700px){
-    .main{
-        max-width: 70%;
+    .main-container{
         right: 0%;
         top: 10rem;
         margin-right: 3rem;
+        width: 69%;
     }
 }
 /*--------------------------------Experiencia----------------------------*/
