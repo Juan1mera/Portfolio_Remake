@@ -76,6 +76,7 @@ p{
 
 /*-----------------------------Barra de Navegacion----------------------*/
 .nav_bg{
+    
     display: block;
     background: rgba( 255, 255, 255, 0 );
     backdrop-filter: blur( 2.5px );
@@ -109,6 +110,7 @@ p{
 }
 
 .nav__link {
+    text-shadow: 5px 5px 5px var(--sombrita);
     font-family: var(--fuentePrincipal);
     color: var(--claro);
     will-change: transform;
@@ -118,11 +120,7 @@ p{
 }
 
 .nav__link:hover {
-    color: var(--sombrita);
-    background: rgba( 255, 255, 255, 0.55 );;
-    -webkit-box-shadow: -1.5px 6px 32px -6px #e5e6fa;
-    -moz-box-shadow: -1.5px 6px 32px -6px #e5e6fa;
-    box-shadow: -1.5px 6px 32px -6px #e5e6fa;
+    text-shadow: 10px 10px 8px var(--sombrita);
     transform: translateY(-0.1em);
     border-radius: 1rem;
     padding: 0rem 5rem;
@@ -134,6 +132,7 @@ p{
 
 
 .container_lenguaje {
+    text-shadow: 5px 5px 5px var(--sombrita);
     width: 15%;
     display: flex;
     justify-content: space-around;
@@ -145,6 +144,7 @@ p{
     justify-content: center;
     align-items: center;
     flex: 1;
+
 }
 
 .nav__lenguaje {
@@ -159,9 +159,8 @@ p{
 }
 
 .nav__lenguaje:hover {
-    background: rgba( 255, 255, 255, 0.55 );;
-    color: var(--sombrita);
-    box-shadow: 0 8px 32px 0 var(--claro);
+    
+    text-shadow: 10px 10px 10px var(--sombrita);
     position: relative; 
     top: -0.3em; /* Mover el elemento hacia arriba */
     border-radius: 1rem;
@@ -188,7 +187,7 @@ p{
         position: fixed;
         top: 61.5%; 
         transform: translateY(-50%);
-        height: autox;
+        height: auto;
         left: 20px; 
         z-index: 1;
         display: flex;
